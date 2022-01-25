@@ -21,16 +21,6 @@
 
 /*
 *
-*	Load ressources in the Wordpress login page
-*
-*
-*
-*/
-
-
-
-/*
-*
 *
 *	Create settings view
 *
@@ -60,6 +50,13 @@ function display_monitorDownloadUrlPackage_settings_page() {
 	print_r(array("Error" => $e));
    }
 }
+/*
+ *
+ *
+ * Create Menu
+ *
+ *
+ */
 function monitorDownloadUrlPackage_settings_admin_menu() {
   add_menu_page(
         'Monitor download\'s Url Package',// page title
